@@ -1,5 +1,5 @@
-import christianBruneau from "../assets/pictures/christian_bruneau.png";
-import eitelMouelle from "../assets/pictures/eitel_mouelle.png";
+import christianBruneau from "../../assets/pictures/christian_bruneau.png";
+import eitelMouelle from "../../assets/pictures/eitel_mouelle.png";
 
 export const senseiData = [
    {

@@ -1,6 +1,7 @@
 import "./App.css";
-import SenseiProfile from "./components/senseiComponent";
-import { senseiData } from "./components/senseiData";
+import SenseiProfile from "./components/senseiCard/senseiComponent";
+import { senseiData } from "./components/senseiCard/senseiData";
+import PhotoCarousel from "./components/slideShow/slideShow";
 
 function App() {
    return (
@@ -9,22 +10,8 @@ function App() {
             <h1 className="title">Jeet Kune Do</h1>
          </header>
          <main>
-            <div className="imageContainer">
-               <img
-                  className="mainImage"
-                  src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Bruce_Lee_1973.jpg"
-                  alt="Bruce Lee"
-               />
-               <img
-                  className="mainImage"
-                  src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Bruce_Lee_1973.jpg"
-                  alt="Bruce Lee"
-               />
-               <img
-                  className="mainImage"
-                  src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Bruce_Lee_1973.jpg"
-                  alt="Bruce Lee"
-               />
+            <div className="slideShowContainer">
+               <PhotoCarousel />
             </div>
 
             <div className="jkdStory">
